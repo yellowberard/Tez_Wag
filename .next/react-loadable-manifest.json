@@ -1,0 +1,14 @@
+{
+  "..\\node_modules\\@taquito\\http-utils\\dist\\taquito-http-utils.es6.js -> @vespaiach/axios-fetch-adapter": {
+    "id": "..\\node_modules\\@taquito\\http-utils\\dist\\taquito-http-utils.es6.js -> @vespaiach/axios-fetch-adapter",
+    "files": [
+      "static/chunks/node_modules_taquito_http-utils_node_modules_vespaiach_axios-fetch-adapter_index_js.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error",
+    "files": [
+      "static/chunks/node_modules_next_dist_pages__error_js.js"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Storage Example",
+  "network": "ghostnet",
+  "rpc": " https://granadanet.smartpy.io/",
+  "contractAddr": "KT1BzmHvppswSZheLtdgWmDcEnnHFTDzpiwi"
+}
