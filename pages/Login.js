@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import PhantomLogo from '../assets/phantomLogo.png';
 import { useContext } from 'react';
-// import { SolWagContext } from '../context/solWagContext';
-// import LoginBg from '../assets/LoginBg.webp';
+
 import { TezosToolkit } from "@taquito/taquito";
 import { BeaconWallet } from "@taquito/beacon-wallet";
 import { add, getValue, multiply, update } from "../context/interact";
@@ -56,29 +55,16 @@ const Login = () => {
           alert("Couldn't connect wallet");
         }
       };
-    // const { connectWallet, setCurrentAccount } = useContext(SolWagContext);
-  
-
-    // const disconnectWallet = async () => {
-    //     const { solana } = window;
-    //     if (solana) {
-    //       await solana.disconnect();
-    //       setCurrentAccount(null);
-    //         console.log("disconnect")
-    //         // disconnectWallet()
-    //     }
-    //   };
-
+    
     return (
         <div className={style.wrapper}>
             <div className={style.container}>
                 <Image src={PhantomLogo} height={50} width={50}/>
                 <h1 className={style.heading}>Sol-Wag</h1>
             <button onClick={connectWalletBeacon} className={style.connectButton}>Connect to wallet</button>
-            {/* <button onClick={disconnectWallet}>Disconnect</button> */}
+           
             </div>
-            {/* Login
-            <h1> Wallet Address: {walletAddress} </h1> */}
+            
         </div>
     )
 }
